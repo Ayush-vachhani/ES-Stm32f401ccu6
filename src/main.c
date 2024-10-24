@@ -1,7 +1,6 @@
 #include "stm32f4xx.h"
 #include "general.h"
 #include "interrupts_conf.h"
-#include "timers.h"
 
 //Interrupt for PA0 button
 void EXTI0_IRQHandler(void) {
